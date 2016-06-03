@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>Js-refresher by mysterydeveloper</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/mysterydeveloper/js-refresher">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>Js-refresher</h1>
+            <h2></h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/mysterydeveloper/js-refresher/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/mysterydeveloper/js-refresher/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="javascript-refresher" class="anchor" href="#javascript-refresher" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JavaScript Refresher</h1>
+
+<p>In this exercise we will refresh our knowledge of JavaScript.
+THe exercises are mainly focused on writing JavaScript for use with Canvas and SVG tags.</p>
+
+<h2>
+<a id="exercises" class="anchor" href="#exercises" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exercises</h2>
+
+<p>Save each exercise as a separate source files:</p>
+
+<ol>
+<li><p>Download and open the files in this repository in Brackets.</p></li>
+<li><p>Open basics.html in Firefox.</p></li>
+<li><p>In basics.html, create two variables, called xpos and ypos. Set xpos to 10 and ypos to 20.</p></li>
+<li><p>Refresh basics.html in Firefox, open the javascript console, and check that xpos and ypos have been defined.</p></li>
+<li><p>Create a JavaScript function called move(), which adds 10 to both xpos and ypos. Verify that your function works at the JavaScript console.</p></li>
+<li><p>Change move() to take two arguments, one value to add to xpos, and the other to add to ypos. Check that your function works.</p></li>
+<li><p>Create an object called ball, that has the following properties: x (its x co-ordinate), y (its y co-ordinate) and r (its radius).</p></li>
+<li><p>Define a function/method in ball called move(), which moves the x and y co-ordinates by 10.</p></li>
+<li><p>Change move() to take two values, one the increment for the x value and the other the increment for the y value.</p></li>
+<li><p>Create a second method in ball, called resize, which takes one argument. This should set the radius (r) of the ball to the value of the argument.</p></li>
+</ol>
+
+<h2>
+<a id="advanced-exercises" class="anchor" href="#advanced-exercises" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Advanced exercises</h2>
+
+<ol>
+<li><p>Create a method called contains() in ball, that takes two arguments - one an x co-ordinate and the other a y co-ordinate. The method should return true if the point given by those co-ordinates is in or on the circle.</p></li>
+<li><p>Re-create the ball object using a constructor function instead of an object literal. You should name this object Ball instead of ball.</p></li>
+<li><p>Create a method in the Ball object called intersect, which takes another Ball as an argument and returns true if the Balls are touching/intersecting and false otherwise.</p></li>
+</ol>
+
+<h2>
+<a id="note" class="anchor" href="#note" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Note</h2>
+
+<ul>
+<li><p>There is an excellent JavaScript refresher tutorial here: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript">A re-introduction to JavaScript (JS tutorial)</a></p></li>
+<li><p>Mozilla have a piece on objects here: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects">Working with objects</a>.</p></li>
+</ul>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/mysterydeveloper">mysterydeveloper</a> can be found on <a href="https://github.com/mysterydeveloper/js-refresher">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
